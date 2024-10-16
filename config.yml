@@ -1,0 +1,27 @@
+recipe: default.v1
+language: en
+
+pipeline:
+- name: WhitespaceTokenizer
+- name: CountVectorsFeaturizer
+- name: LexicalSyntacticFeaturizer
+- name: DIETClassifier
+- name: EntitySynonymMapper
+- name: ResponseSelector
+
+policies:
+#- name: IntentlessPolicy
+- name: RulePolicy
+- name: FlowPolicy
+- name: EnterpriseSearchPolicy
+  llm:
+    model: "llama3.1"
+    provider: ollama
+  vector_store:
+    type: "faiss"
+    source: "./docs"
+  embeddings:
+    provider: "huggingface_local"
+    model: "BAAI/bge-small-en-v1.5"
+
+assistant_id: 20241010-163200-commutative-ostrich

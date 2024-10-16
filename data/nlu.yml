@@ -1,0 +1,20 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - Hello
+    - Hi
+    - Hey
+- intent: goodbye
+  examples: |
+    - Goodbye
+    - See you later
+    - Bye
+- intent: chat_with_your_files
+  examples: |
+    - I want to know more about credit cards
+    - Can you find information on credit cards?
+    - Tell me details about my credit card.
+    - What can I do about my credit card debt?
+    - credit card
+    - What do I need to know about a credit card?

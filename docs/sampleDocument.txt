@@ -1,0 +1,16 @@
+we have five type of cards:  debit card, credit card, gift card, loyalty card and smart card.
+
+The price of debit card is between 5 euros and 10 depends on the options you want to have.
+Debit cards are directly linked to the user's bank account, allowing them to make purchases with funds available in the account.
+
+If the borrowed amount is not paid in full by the due date, credit card users may incur interest charges on the remaining balance.
+Responsible use of credit cards, such as timely payments, contributes to building a positive credit history, which can impact credit scores.
+
+Gift cards come with a predetermined monetary value, allowing recipients to make purchases up to that amount.
+Recipients have the flexibility to choose the items they want within the card's value, making them a popular choice for gifts.
+
+Loyalty cards are designed to reward customers for their repeat business. Customers typically earn points or receive discounts based on their purchases.
+Loyalty cards are often part of broader membership programs that may include additional benefits, such as early access to sales, special events, or exclusive products.
+
+Smart cards are equipped with an embedded microprocessor or chip, differentiating them from traditional magnetic stripe cards.
+The embedded chip in smart cards enhances security by storing and processing data internally. This makes them less susceptible to unauthorized access or duplication

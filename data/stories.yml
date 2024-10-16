@@ -1,0 +1,6 @@
+version: "3.1"
+stories:
+- story: Chat With your files example
+  steps:
+    - intent: chat_with_your_files
+    - action: action_trigger_search

@@ -1,0 +1,18 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - chat_with_your_files  # Intent to trigger a file search
+
+#actions:
+  #- action_trigger_search  # Custom action defined in action.py
+
+responses:
+  utter_greet:
+    - text: "Hi there!"
+  utter_bye:
+    - text: "See you!"
+
+
+
